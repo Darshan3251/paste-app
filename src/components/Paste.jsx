@@ -1,7 +1,7 @@
-// import React, { useState } from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { removeFromPaste } from "../redux/PasteSlice";
-// import toast from 'react-hot-toast';
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { removeFromPaste } from "../redux/PasteSlice";
+import toast from 'react-hot-toast';
 
 
 // const Paste = () => {
@@ -94,10 +94,6 @@
 // export default Paste;
 
 
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { removeFromPaste } from "../redux/PasteSlice";
-import toast from 'react-hot-toast';
 
 const Paste = () => {
   const pastes = useSelector((state) => state.paste.pastes);
